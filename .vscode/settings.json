@@ -1,0 +1,43 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 3,
+    "editor.fontFamily": "Roboto Mono, Consolas",
+    "editor.formatOnPaste": true,
+    "files.associations": {
+        "*.extension": "cpp"
+    },
+    "editor.dragAndDrop": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.renderControlCharacters": false,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "toggle",
+    "window.restoreFullscreen": true,
+    "window.smoothScrollingWorkaround": true,
+    "files.defaultLanguage": "cpp",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "update.enableWindowsBackgroundUpdates": false,
+    "debug.inlineValues": true,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 16,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    // Code format settings
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_path": null,
+    "C_Cpp.clang_format_style": "Google",
+    "git.autofetch": true
+}
