@@ -1,0 +1,20 @@
+{
+  "name": "nstu-project-template",
+  "version": "1.0.0",
+  "description": "C\\C++ project template for linux",
+  "main": "index.js",
+  "repository": "https://github.com/DenielJekyll/npt.git",
+  "author": "nask-team",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "watch": "gulp watch",
+    "start": "gulp clean && gulp build && ./build/app"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-run-command": "^0.0.9"
+  }
+}
