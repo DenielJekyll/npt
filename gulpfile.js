@@ -5,15 +5,15 @@ const run = require('gulp-run-command').default;
 
 gulp.task('dependencies', () => {
     return gulp
-        .src('src/dependencies/**/*.*')
+        .src('./src/dependencies/**/*')
         .pipe(gulp.dest('build'))
 });
 
-gulp.task('build', ['dependencies'], run('g++ -Wall ./src/main.cpp -o ./build/app'));
+gulp.task('build', ['clean', 'dependencies'], run('g++ -g ./src/main.cpp -o ./build/app'));
 
 gulp.task('clean', () => {
     return gulp
-        .src('build/app', {read: false})
+        .src('build/*', {read: false})
         .pipe(clean());
 });
 

@@ -1,0 +1,29 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/build",
+            "program": "${workspaceFolder}/build/app",
+            "stopAtEntry": false,
+            "launchCompleteCommand": "exec-run",
+            "preLaunchTask": "npm: build",
+            "linux": {
+               "MIMode": "gdb",
+               "miDebuggerPath": "/usr/bin/gdb"
+            },
+            "osx": {
+               "MIMode": "lldb"
+            },
+            "windows": {
+               "MIMode": "gdb",
+               "miDebuggerPath": "C:\\MinGw\\bin\\gdb.exe"
+            }
+        }
+    ]
+}
